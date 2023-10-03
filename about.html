@@ -5,13 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
 </head>
+
+<style>
+
+.container {
+			width: 50%;
+			height: 50%;
+			border: 1px solid black;
+			padding: 20px;
+			text-align: center;
+			margin: 0 auto;
+            background-color: burlywood;
+		}
+    .square-border {
+        border-width: 10px;
+        border-style: solid;
+        border-color: aqua;
+        display: inline-block;
+        overflow: hidden;
+    }
+    
+    .square-border img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
 <body>
-    <h1 style="text-align: center; color: saddlebrown;">About me</h1>
-    <img src="Syifa.jpeg" alt="Syifa Angraeni Qudratillah" width="50%">
-    <p>Perkenalkan Nama saya Syifa Angraeni Qudratillah, Biasa dipanggil Syifa, 
-    Saya lahir pada tanggal 27 April 2005 dan saat ini saya berusia 18 tahun. 
-    Saya tinggal di Pinang, Tangerang. Hobi saya jogging.</p>
-    <a href="Home.html" style="color: black;">Back to Home</a>
+   <div class="container">
+        <h1 style="text-align: center; color: saddlebrown;">About me</h1>
+            <div class="square-border">
+                <img src="Syifa.jpeg" alt="Syifa Angraeni Qudratillah" width="50%">
+            </div>
+        <p>Perkenalkan Nama saya Syifa Angraeni Qudratillah, Biasa dipanggil Syifa, 
+            Saya lahir pada tanggal 27 April 2005 dan saat ini saya berusia 18 tahun. 
+            Saya tinggal di Pinang, Tangerang. Hobi saya jogging.</p>
+    </div>
+    <a href="index.html" style="color: black;">Back to Home</a>
 
 </body>
 </html>
